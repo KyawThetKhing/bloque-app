@@ -10,7 +10,7 @@ const { legends, loading, error, search, filteredPlayers, fetchLeaderboard } = u
 
 <template>
   <div class="mx-auto max-w-3xl p-4">
-    <h1 class="mb-6 text-center text-3xl font-bold">🏅 Leaderboard</h1>
+    <h1 class="mb-6 text-center text-3xl font-bold">🏆 Leaderboard</h1>
 
     <!-- Error Section -->
     <template v-if="error">
